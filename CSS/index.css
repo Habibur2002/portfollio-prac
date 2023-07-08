@@ -16,6 +16,7 @@
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0px 200px;
 }
 
 nav ul {
@@ -35,3 +36,22 @@ ul li{
     color: aliceblue;
     padding: 15px 35px;
 }
+
+/*header related css */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    justify-content: center;
+}
+.banner .banner-img img{
+    width: 500px;
+
+}
+
+
+
+
+

@@ -75,7 +75,7 @@ ul li {
 }
 
 /* main  section css work*/
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -89,51 +89,63 @@ main{
     text-align: center;
     margin: 150px 0;
 }
-.tile-about{
 
-font-size: 35px;
-font-weight: 700;
+.tile-about {
+
+    font-size: 35px;
+    font-weight: 700;
 }
 
-.content-about{
+.content-about {
     color: #757575;
-text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 
 /* about information sectionL  */
 
-.about-info-container{
+.about-info-container {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
-.name{
+
+.name {
     font-size: small;
     color: #757575;
 }
-.description{
+
+.description {
     margin-top: 0;
     font-size: large;
     color: #757575;
 }
 
-    /* what i do section cssL  */
+/* what i do section cssL  */
 
-.ido{
+.ido {
     text-align: center;
 }
-#do{
+
+
+/* skill related styles here */
+
+
+#do {
     padding: 30px 150px;
 }
 
+.skill-container {
+    display: flex;
+    gap: 10px;
+}
 
+.skill {
 
-
-
-
-
-
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}

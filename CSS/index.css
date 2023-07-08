@@ -75,6 +75,10 @@ ul li {
 }
 
 /* main  section css work*/
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
 /* about section style */
 
@@ -100,6 +104,22 @@ line-height: 30px;
 }
 
 
+/* about information sectionL  */
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.name{
+    font-size: small;
+    color: #757575;
+}
+.description{
+    margin-top: 0;
+    font-size: large;
+    color: #757575;
+}
 
 
 
